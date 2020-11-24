@@ -1,0 +1,14 @@
+
+{
+     "name":"giftnuss/test.php",
+     "description":"Test library for Test Anything Protocol (TAP)",
+     "keywords":["test","unittest","tap"],
+     "homepage":"https://github.com/giftnuss/test.php",
+     "version": "v0.15.0",
+     "license": "unrestricted",
+     "authors":[
+          {"name": "Ævar Arnfjörð Bjarmason", "email": "avar@cpan.org", "role": "Developer"},
+          {"name": "Andy Armstrong", "email": "andy@hexten.net", "role": "Maintainer of TAP specification, Developer"},
+          {"name": "Sebastian Knapp", "email": "sk@computer-leipzig.com", "role": "Developer"}
+     ]
+}
