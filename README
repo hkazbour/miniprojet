@@ -54,30 +54,6 @@ SYNOPSIS
         }
         todo_end();
         ?>
-  
-DESCRIPTION
-    Test.php is an implementation of Perl's Test::More for PHP. Like
-    Test::More it produces language agnostic TAP output (see TAP) which can
-    then be gathered, formatted and summarized by a program that understands
-    TAP such as prove(1).
-
-HOWTO
-    First place the Test.php in the project root or somewhere else in the
-    include path where "require" and "include" will find it.
-
-    Then make a place to put your tests in, it's customary to place TAP
-    tests in a directory named t under the root but they can be anywhere you
-    like. Make a test in this directory or one of its subdirs and try
-    running it with php(1):
-
-        $ php t/pass.t 
-        1..1
-        ok 1 This dummy test passed
-
-    The TAP output consists of very simple output, of course reading larger
-    output is going to be harder which is where prove(1) comes in. prove is
-    a harness program that reads test output and produces reports based on
-    it:
 
         $ prove t/pass.t 
         t/pass....ok
