@@ -457,17 +457,7 @@ Test.php - TAP test framework for PHP with a L<Test::More>-like interface
     is($have, $want, $test_name);
     isnt($have, $want, $test_name);
 
-    # Run a preg regex match on some data
-    like($have, $regex, $test_name);
-    unlike($have, $regex, $test_name);
-
-    # Compare something with a given comparison operator
-    cmp_ok($have, '==', $want, $test_name);
-    # Compare something with a comparison function (should return bool)
-    cmp_ok($have, $func, $want, $test_name);
-
-    # Recursively check datastructures for equalness
-    is_deeply($have, $want, $test_name);
+   
 
     # Always pass or fail a test under an optional name
     pass($test_name);
