@@ -6,17 +6,7 @@
 
 register_shutdown_function('_test_ends');
 
-$__Test = array(
-    # How many tests are planned
-    'planned'   => null,
 
-    # How many tests we've run, if 'planned' is still null by the time we're
-    # done we report the total count at the end
-    'run' => 0,
-
-    # Are are we currently within todo_start()/todo_end() ?
-    'todo' => array(),
-);
 
 function plan($plan, $why = '')
 {
