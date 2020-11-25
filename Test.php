@@ -4,6 +4,7 @@
 # The latest release of this test framework can always be found on CPAN:
 # http://search.cpan.org/search?query=Test.php
 
+# See the end of this file for documentation
 register_shutdown_function('_test_ends');
 
 
